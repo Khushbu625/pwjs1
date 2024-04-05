@@ -1,0 +1,23 @@
+const firstname = "hello"
+ const lastname ='kt'
+
+ console.log(firstname + " " + lastname);
+ console.log(`my ${firstname} name is ${lastname} khushbu thakur`);
+
+const username = new String('khushbudotcom')
+console.log(username[0]);
+console.log(username.substring(0,4));
+console.log(username.length);
+console.log(username.charAt(0));
+
+
+let email = "khushbuthakur@1234.com"
+console.log(email.trim());
+let emailTwo ="kt@pw.live"
+console.log(emailTwo.replace("kt","khushbu"));
+console.log(emailTwo.includes('kt'));
+console.log(emailTwo.toUpperCase());
+
+
+
+
