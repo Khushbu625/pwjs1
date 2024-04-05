@@ -1,4 +1,4 @@
-const firstname = "hello"
+/*const firstname = "hello"
  const lastname ='kt'
 
  console.log(firstname + " " + lastname);
@@ -17,7 +17,16 @@ let emailTwo ="kt@pw.live"
 console.log(emailTwo.replace("kt","khushbu"));
 console.log(emailTwo.includes('kt'));
 console.log(emailTwo.toUpperCase());
+*/
 
+ const num = new Number(5.87640)
+ console.log(num.toFixed(2));
+
+ const subscribers = 100000
+ console.log(subscribers.toLocaleString());
+ console.log(Number.MAX_VALUE);
+ console.log(Math.floor (Math.random()*10));
+ 
 
 
 
