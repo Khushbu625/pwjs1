@@ -49,3 +49,67 @@ console.log("nailed it");
 else {
     console.log("i don't know the rating");
 }
+
+// if email is present ask for password and if email is not present then ask for email
+
+// const email = "khushbu@123"
+
+// if (email == "khushbu@123"){
+//     console.log("please enter your password");
+// }else {
+//     console.log("please enter your email");
+// }
+// if (email ){
+//     console.log("please enter your password");
+// }else {
+//     cpnsole.log("please enter your email");
+// }
+// if (email != ""){
+//     console.log("please enter your password");
+// }else {
+//     c0nsole.log("please enter your email");
+// }
+// console.log(Boolean(email));
+// /*
+// truthy falsy values
+// falsy
+// 0
+// null
+// ""
+// undefined
+// NaN */
+
+const email= "khushbu"
+const password = "12345"
+
+if (email){
+    if(password){
+        console.log("welcome to the app");
+    }
+    else{
+        console.log("please enter your password");
+    }
+}
+else{
+    console.log("please enter your email");
+
+ }
+
+ if (email&&password){
+        console.log("welcome to the app");
+    }
+    else{
+        console.log("please enter email and password")
+    }
+
+    const googlelogintoken = ""
+    const githublogintoken = ""
+
+    if(googlelogintoken || githublogintoken ){
+        console.log("welcome to the app");
+    }
+    else{
+        console.log("please login to view your account");
+    }
+    
+
