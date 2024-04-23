@@ -111,5 +111,18 @@ else{
     else{
         console.log("please login to view your account");
     }
-    
 
+    let age = 19 
+    const willyougetdrivinglicence = false
+
+    (age>=18)? willyougetdrivinglicence=true: willyougetdrivinglicence=false 
+    
+    const getdrivinglicence = age>=18 ? "true part" :" false"
+
+let loading = false
+if (loading){
+    return "loading...."
+}
+console.log("show the cards to user");
+
+loading ? "show loading spinner": "show card to user"
